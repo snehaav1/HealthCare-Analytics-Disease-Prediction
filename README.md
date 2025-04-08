@@ -17,7 +17,7 @@ Our evaluation focuses on key performance metrics, including accuracy, precision
 
  
 
- <h1>Results</h1> <code style="lightskyblue" : name_color">text</code> 
+ <h1>Results</h1> 
 
 | Logistic Regression Results| | 
 | --- | --- |
