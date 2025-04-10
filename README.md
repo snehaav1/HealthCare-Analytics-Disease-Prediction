@@ -26,7 +26,7 @@ Our evaluation focuses on key performance metrics, including accuracy, precision
 | Recall (Diabetic - Class 1):|  64% (64% of actual diabetics were correctly identified) |
 | F1-Score (Diabetic - Class 1) | 65% (balance between precision & recall)|
 
-| Confusion Matrix Results| |
+| Logistic Regression Confusion Matrix Results| |
 | --- |--- |
 |82 Non-Diabetics correctly classified |
 |17 Non-Diabetics misclassified as Diabetic  |
@@ -43,7 +43,7 @@ Our evaluation focuses on key performance metrics, including accuracy, precision
 | Recall (Diabetic - Class 1):|  67% (higher than Logistic Regression) |
 | F1-Score (Diabetic - Class 1) | 63% |
 
-| Confusion Matrix Results| |
+| Random Forest Confusion Matrix Results| |
 | --- | --- |
 |73 Non-Diabetics correctly classified |
 |26 Non-Diabetics misclassified as Diabetic (false positives)  |
@@ -58,7 +58,7 @@ Our evaluation focuses on key performance metrics, including accuracy, precision
 | Recall (Diabetic - Class 1):|67% (same as Random Forest)  |
 | F1-Score (Diabetic - Class 1) | 62% |
 
-| Confusion Matrix Results| |
+| XGBoost Results Confusion Matrix Results| |
 | --- | --- |
 |71 Non-Diabetics correctly classified  |
 |28 Non-Diabetics misclassified as Diabetic (false positives)   |
