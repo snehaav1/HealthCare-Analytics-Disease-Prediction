@@ -19,12 +19,12 @@ Our evaluation focuses on key performance metrics, including accuracy, precision
 
  <h1>Results</h1> 
 
-| Logistic Regression Results| | 
-| --- | --- |
-| Accuracy:  | 76% (correctly classified cases) |
-| Precision (Diabetic - Class 1):  | 67% (67% of predicted diabetics were actually diabetic)  |
-| Recall (Diabetic - Class 1):|  64% (64% of actual diabetics were correctly identified) |
-| F1-Score (Diabetic - Class 1) | 65% (balance between precision & recall)|
+| Logistic Regression| Random Forest| XGBoost Results|
+| --- | --- |---|
+| Accuracy:  | 76% (correctly classified cases) |71% | 70% |
+| Precision (Diabetic - Class 1):  | 67% (67% of predicted diabetics were actually diabetic)  | 59%| 57%|
+| Recall (Diabetic - Class 1):|  64% (64% of actual diabetics were correctly identified) |67% (higher than Logistic Regression)|67% (same as Random Forest)|
+| F1-Score (Diabetic - Class 1) | 65% (balance between precision & recall)|63%|62% |
 
 | Logistic Regression Confusion Matrix Results| |
 | --- |--- |
@@ -35,14 +35,6 @@ Our evaluation focuses on key performance metrics, including accuracy, precision
 
 
 
-
-| Random Forest| |
-| --- | --- |
-| Accuracy:  |  71%  |
-| Precision (Diabetic - Class 1):  | 59%  |
-| Recall (Diabetic - Class 1):|  67% (higher than Logistic Regression) |
-| F1-Score (Diabetic - Class 1) | 63% |
-
 | Random Forest Confusion Matrix Results| |
 | --- | --- |
 |73 Non-Diabetics correctly classified |
@@ -50,13 +42,6 @@ Our evaluation focuses on key performance metrics, including accuracy, precision
 |18 Diabetics misclassified as Non-Diabetic |
 |37 Diabetics correctly classified  |
 
-
-|XGBoost Results| |
-| --- | --- |
-| Accuracy:  | 70%  |
-| Precision (Diabetic - Class 1):  | 57%  |
-| Recall (Diabetic - Class 1):|67% (same as Random Forest)  |
-| F1-Score (Diabetic - Class 1) | 62% |
 
 | XGBoost Results Confusion Matrix Results| |
 | --- | --- |
