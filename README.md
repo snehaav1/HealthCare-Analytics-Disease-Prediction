@@ -1,6 +1,6 @@
 # HealthCare Analytics Disease Prediction
 <h1>Abstract</h1> 
-Diabetes is a widespread chronic condition that requires early diagnosis for effective management. This study evaluates and compares the performance of three machine learning models—Logistic Regression, Random Forest, and XGBoost—for predicting diabetes using health-related features. The goal was to identify the most accurate and balanced model based on key evaluation metrics: accuracy, precision, recall, and F1-score. Results show that Logistic Regression outperforms the other models, achieving the highest accuracy (76%) and a strong balance between precision (67%) and recall (64%). These findings suggest that Logistic Regression is a reliable and interpretable model for diabetes prediction, offering potential benefits for early screening and improved healthcare decision-making. l
+Diabetes is a widespread chronic condition that requires early diagnosis for effective management. This study evaluates and compares the performance of three machine learning models—Logistic Regression, Random Forest, and XGBoost—for predicting diabetes using health-related features. The goal was to identify the most accurate and balanced model based on key evaluation metrics: accuracy, precision, recall, and F1-score. Results show that Logistic Regression outperforms the other models, achieving the highest accuracy (76%) and a strong balance between precision (67%) and recall (64%). These findings suggest that Logistic Regression is a reliable and interpretable model for diabetes prediction, offering potential benefits for early screening and improved healthcare decision-making. 
 
 <h1>Objective</h1> 
 Objective: The objective of this study is to evaluate and compare the effectiveness of various machine learning models in predicting diabetes based on available health data. Specifically, we aim to analyze the performance of Logistic Regression, and Random Forest, models to determine the best approach for accurate diabetes classification. The focus is on identifying the model with the highest accuracy, precision, recall, and F1-score while minimizing false positives and false negatives. 
@@ -64,7 +64,9 @@ These findings support the use of Logistic Regression as a reliable baseline mod
  
 This study demonstrates the effectiveness of machine learning in diabetes prediction, with Logistic Regression emerging as the most accurate and balanced model among those tested. Its simplicity, high performance, and interpretability make it particularly suitable for medical applications where accurate classification and understanding of contributing factors are critical. While Random Forest and XGBoost offered slightly higher recall, their lower precision and increased misclassification rates reduced their overall reliability. Logistic Regression not only achieved the highest accuracy but also minimized false positives and false negatives, making it a valuable tool for supporting early diagnosis and personalized healthcare strategies. Future work can explore model enhancements, feature expansion, and validation on diverse populations to further improve predictive performance. 
 
-  <h1>References</h1> 
+ <h1>References</h1> 
+ - reference 1
+ - reference 2
  
  <h1>Contrubutions</h1> 
  
