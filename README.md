@@ -19,12 +19,16 @@ Our evaluation focuses on key performance metrics, including accuracy, precision
 
  <h1>Results</h1> 
 
-| Metric                            | Logistic Regression | Random Forest | XGBoost |
+| Table 1 Metric                            | Logistic Regression | Random Forest | XGBoost |
 |----------------------------------|---------------------|----------------|---------|
 | Accuracy                         | 76%                | 71%           | 70%     |
 | Precision (Diabetic - Class 1)   | 67%                | 59%           | 57%     |
 | Recall (Diabetic - Class 1)      | 64%                | 67%           | 67%     |
 | F1-Score (Diabetic - Class 1)    | 65%                | 63%           | 62%     |
+
+
+
+Table 1 discription: The results compare the performance of Logistic Regression and Random Forest models in predicting diabetes. Logistic Regression achieved higher overall accuracy (76%) compared to Random Forest (71%). It also performed better in terms of precision (67% vs. 59%), indicating it made fewer false positive predictions. However, Random Forest had a slightly better recall (67% vs. 64%), meaning it identified more actual diabetic cases. The F1-score, which balances precision and recall, was slightly higher for Logistic Regression (65% vs. 63%). The confusion matrix for Logistic Regression shows it correctly classified most non-diabetics (82), but missed 20 diabetics. Overall, Logistic Regression slightly outperformed Random Forest in this case.
 
 
 | Logistic Regression Confusion Matrix Results| |
