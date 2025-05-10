@@ -72,6 +72,7 @@ This study demonstrates the effectiveness of machine learning in diabetes predic
   <h1>References</h1> 
  
  <h1>Contrubutions</h1> 
+ Natalie Huang
  
  
 
